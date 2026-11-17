@@ -4,7 +4,7 @@ Tugas Kelompok mata kuliah **Computer Vision**. Proyek ini membandingkan dua mod
 
 ## Ringkasan
 
-- **Dataset:** [Kvasir-SEG](https://datasets.simula.no/kvasir-seg/) (1.000 citra kolonoskopi beserta mask biner polip).
+- **Dataset:** [Kvasir-SEG](https://www.kaggle.com/datasets/debeshjha1/kvasirseg/suggestions) (1.000 citra kolonoskopi beserta mask biner polip).
 - **Model A:** U-Net standar 4 tingkat, dilatih dari nol.
 - **Model B:** U-Net dengan encoder ResNet-34 pretrained ImageNet (`segmentation_models_pytorch`).
 - **Metrik:** Dice dan IoU per citra pada data uji, lalu dirata-rata.
